@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Nov  4 12:00:49 2017
 
-@author: NishitP
-"""
 #import os
 import pandas as pd
 import csv
@@ -119,26 +114,6 @@ def create_bigrams(words):
         #set it as unigram
         lst = create_unigram(words)
     return lst
-
-"""
-#trigrams
-def create_trigrams(words):
-    assert type(words) == list
-    skip == 0
-    join_str = " "
-    Len = len(words)
-    if L > 2:
-        lst = []
-        for i in range(1,skip+2):
-            for k1 in range(1, skip+2):
-                for k2 in range(1,skip+2):
-                    for i+k1 < Len and i+k1+k2 < Len:
-                        lst.append(join_str.join([words[i], words[i+k1],words[i+k1+k2])])
-        else:
-            #set is as bigram
-            lst = create_bigram(words)
-    return lst
-"""
 
 
 porter = PorterStemmer()
