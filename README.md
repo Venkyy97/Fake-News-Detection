@@ -1,5 +1,4 @@
 
-Here’s a modified project overview suitable for adding to a resume without any personal information:
 
 Project: Fake News Detection in Python
 
